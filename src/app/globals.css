@@ -14,7 +14,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.WithAvalible{
+  width: -webkit-fill-available;
+}
 
+.HeightAvalible{
+height: -webkit-fill-available;
+}
 
 
 body {

@@ -54,9 +54,9 @@ export default function Navbar() {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry.isIntersecting) {
-          navbar.classList.add("fixed", "top-0", "left-0", "w-full", "shadow-lg");
+          navbar.classList.add("fixed", "z-21", "top-0", "left-0", "w-full", "shadow-lg");
         } else {
-          navbar.classList.remove("fixed", "top-0", "left-0", "w-full", "shadow-lg");
+          navbar.classList.remove("fixed","z-21", "top-0", "left-0", "w-full", "shadow-lg");
         }
       },
       { threshold: 0 }
