@@ -74,7 +74,7 @@ export default function Navbar() {
       <nav aria-label="Global"  className="dark:bg-[#061127] p-3 z-10 transition-all duration-300 w-full mx-auto flex  items-center justify-between  lg:px-8">
         <div className="flex ">
           <Link href="#" className="">
-            <h1>hello</h1>
+            <h1>Garvik Financials logo</h1>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -110,8 +110,8 @@ export default function Navbar() {
           </Link>
         </PopoverGroup>
 
-        <div>
-          <h1>ho</h1>
+        <div className='hidden lg:block lg:relative'>
+          <button type="button" className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Request Loan</button>
         </div>
 
       </nav>

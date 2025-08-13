@@ -22,10 +22,10 @@ export default function Home() {
      </div>
 
      <div className="pt-30">
-      <div className="flex justify-around">
+      <div className="flex justify-around flex-col lg:flex-row">
         
-        <div className="w-[45vw]">
-          <p>|| About Company ||</p>
+        <div className="w-[-webkit-fill-available] m-5 lg:w-[45vw]">
+          <p className="text-center lg:text-start">|| About Company ||</p>
           <h1 className="py-3 text-4xl font-bold">Personal loans to fulfill your dreams</h1>
           <div>
             <div className="flex justify-between py-10">
@@ -58,15 +58,15 @@ export default function Home() {
             <button type="button" className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Discover More</button>
           </div>
         </div>
-        <div className="w-[40vw]">
+        <div className="w-[-webkit-fill-available] m-5 lg:w-[40vw]">
         <Image src={img1} alt=".." />
         </div>
       </div>
 
-      <div className="flex justify-around mt-10 relative z-1">
+      <div className="flex justify-around flex-col m--5 lg:flex-row mt-10 relative z-1">
 {paymentCard.map((item,index) =>{
   return(
-<div key={index} className="w-[28vw] HeightAvalible p-6 bg-white border border-gray-200  shadow-sm dark:bg-gray-800 dark:border-gray-700">
+<div key={index} className="w-[-webkit-fill-available] m-5 lg:w-[30vw] HeightAvalible p-6 bg-white border border-gray-200  shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <svg className="w-7 h-7 my-5 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
         <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
     </svg>
@@ -87,13 +87,13 @@ export default function Home() {
 
      </div>
 
-      <section className='bg-[url(../Images/video-bg-1-1-1.jpg)] z-0 absolute WithAvalible top-[130vw] object-cover'>
+      <section className='bg-[url(../Images/video-bg-1-1-1.jpg)] z-0 block lg:absolute WithAvalible top-[140vw] object-cover'>
         <div className=" inset-0 bg-black opacity-50"></div>
         <div className="bg-[url(../Images/video-bg-1-1.png] z-40 relative">
               <Image src={img2} alt="..." />
           <div className="flex justify-around">
-            <div className="absolute object-cover top-0">
-              <h1 className="text-2xl text-white">Hundreds of customers trust our company</h1>
+            <div className="block lg:absolute object-cover top-50 bottom-50 left-10">
+              <h1 className="text-4xl font-bold text-white">Hundreds of customers trust our company</h1>
             </div>
             <div className="">
 
