@@ -74,14 +74,13 @@ export default function Home() {
                   </div>
                   <div className="px-6">
                     <h1>
-                      We are a boutique loan consultancy where we ‘bank’ on 20+
-                      years of experience.
+                      We are a boutique loan consultancy where we &lsquo;bank&rsquo; on 20+ years of experience.
                     </h1>
                   </div>
                 </div>
 
                 <p className="pb-5">
-                  Our associates understand clients’ requirements and ‘draw' from
+                  Our associates understand clients&rsquo; requirements and &lsquo;draw&rsquo; from
                   our network of industry leaders to present cases effectively
                   and deliver the desired results in a time-bound manner.
                 </p>
@@ -186,7 +185,7 @@ export default function Home() {
 
         {/* Offering Section */}
         <section className=" text-center">
-          <h3 className="text-red-500">|| WHAT WE'RE OFFERING ||</h3>
+          <h3 className="text-red-500">|| WHAT WE&apos;RE OFFERING ||</h3>
           <h1 className="font-bold text-3xl">
             We provide best service <br /> for your loans
           </h1><div className="flex justify-around flex-col lg:flex-row mt-5 relative z-10 top-20">
@@ -224,11 +223,11 @@ export default function Home() {
             ))}
           </div>
         </section>
-        
+
       </div>
       <section className="mt-20">
-          <Loan />
-        </section>
+        <Loan />
+      </section>
     </>
   );
 }
