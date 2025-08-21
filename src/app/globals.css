@@ -22,6 +22,38 @@
 height: -webkit-fill-available;
 }
 
+/* Make noUiSlider track red */
+.noUi-connect {
+  background: #dc2626 !important; /* Tailwind red-600 */
+}
+
+/* Track base */
+.noUi-target {
+  background: #e5e7eb; /* Tailwind gray-200 */
+  border-radius: 9999px;
+  height: 8px;
+  border: none;
+}
+
+/* Handle (the round draggable knob) */
+.noUi-handle {
+  background: #fff;
+  border: 2px solid #dc2626; /* Tailwind red-600 */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: -6px; /* aligns knob with track */
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Remove extra bars on handle */
+.noUi-handle:before,
+.noUi-handle:after {
+  display: none;
+}
+
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
