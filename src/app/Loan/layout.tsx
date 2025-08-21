@@ -85,8 +85,7 @@ export default function LoanCalculator() {
         </a>
 
         <div className="loan-calculator__form__terms mt-3 text-xs text-gray-500">
-          *These calculators are provided only as general self-help Planning Tools. 
-          Results depend on other factors.
+          {'*These calculators are provided only as general self-help Planning Tools. Results depend on other factors.'}
         </div>
       </form>
     </div>
