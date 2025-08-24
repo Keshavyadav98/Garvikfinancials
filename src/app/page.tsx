@@ -117,17 +117,17 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-full m-5 lg:w-[40vw]">
+            <div className="w-full m-0 lg:m-5 lg:w-[40vw]">
               <Image src={img1} alt="About Company" />
             </div>
           </div>
 
           {/* Payment Cards */}
-          <div className="flex justify-around flex-col lg:flex-row mt-5 relative z-10 top-20">
+          <div className="flex justify-around flex-col lg:flex-row mt-5 relative z-10 top-0 md:top-20">
             {paymentCard.map((item, index) => (
               <div
                 key={index}
-                className="w-full m-5 lg:w-[30vw] p-6 bg-white border border-gray-200 shadow-sm"
+                className="w-full m-0 lg:m-5 lg:w-[30vw] p-6 bg-white border border-gray-200 shadow-sm"
               >
                 <svg
                   className="w-7 h-7 my-5 text-gray-500"
