@@ -60,12 +60,11 @@ export default function Home() {
 
         <div className="bg-[url('../Images/testi.png')]">
         <section className=" text-center mt-10  mx-auto w-100% md:w-[80%] ">
-          <h3 className="text-red-500">|| OUR Benifits ||</h3>
-          <h1 className="font-bold text-3xl mt-3">
-            Which NBFC is right for your funding needs?
-          </h1>
           <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">
-            Apart from Banks there are hundreds of NBFCs categorised as Upper and Middle Layer by the RBI. Each lending institution has its own area of expertise and the kind of transactions it favours. Presenting the right case, correctly to the right entity makes all the difference.
+            We are a boutique loan consultancy where we &lsquo;bank&rsquo; on 20+ years of experience of 
+                  Our associates understand clients&rsquo; requirements and &lsquo;draw&rsquo; from
+                  our network of industry leaders to present cases effectively
+                  and deliver the desired results in a time-bound manner.
             </p>
         </section>
         </div>
@@ -86,10 +85,7 @@ export default function Home() {
                   </div> */}
                   <div className="px-6">
                     <h1>
-                      We are a boutique loan consultancy where we &lsquo;bank&rsquo; on 20+ years of experience of 
-                  Our associates understand clients&rsquo; requirements and &lsquo;draw&rsquo; from
-                  our network of industry leaders to present cases effectively
-                  and deliver the desired results in a time-bound manner.
+                      Business uncertainties and cashflow challenges can make borrowing a complicated process. An experienced consultant can understand and present things in an effective manner to the right lending entity.
                     </h1>
                   </div>
                 </div>
@@ -133,10 +129,10 @@ export default function Home() {
         <div className="bg-gray-100 py-10">
         <section className=" text-start md:text-center mx-auto w-[100%]  md:w-[80%]">
           {/* <h3 className="text-red-500">|| CALCULATE YOUR RATE ||</h3> */}
-          <h1 className="font-bold text-3xl mt-3">
+          {/* <h1 className="font-bold text-3xl mt-3">
             Struggling with business uncertainties<br /> and cashflow hurdles.
-          </h1>
-          <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">Business uncertainties and cashflow challenges can make borrowing a complicated process. An experienced consultant can understand and present things in an effective manner to the right lending entity.</p>
+          </h1> */}
+          <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">Apart from Banks there are hundreds of NBFCs categorised as Upper and Middle Layer by the RBI. Each lending institution has its own area of expertise and the kind of transactions it favours. Presenting the right case, correctly to the right entity makes all the difference.</p>
         </section>
         </div>
 
