@@ -1,6 +1,4 @@
 'use client'
-import Image from 'next/image'
-import image360 from '../../Images/360.png'
 import { CiFacebook } from "react-icons/ci";
 import { FaTwitter } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
@@ -10,10 +8,9 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className='bg-black lg:mt-[33vw] dark:bg-[#061127] lg:dark:border dark:border-t-white p-5 mt-5'>
+    <div className='bg-black dark:bg-[#061127] lg:dark:border dark:border-t-white p-5 mt-5'>
     <div className='flex flex-col md:flex-row lg:flex-row justify-evenly py-10'>
         <div className='w-full md:w-65 lg:w-65 h-auto p-0   flex flex-col justify-evenly'>
-            {/* <Image className='mx-auto w-50' src={} alt='logo' /> */}
                         <p className='text-white  text-start'>logo</p>
         </div>
         <div className='w-full md:w-60 lg:w-50 flex flex-col justify-evenly  text-center'>

@@ -188,7 +188,7 @@ export default function Home() {
           <h3 className="text-red-500">|| WHAT WE&apos;RE OFFERING ||</h3>
           <h1 className="font-bold text-3xl">
             We provide best service <br /> for your loans
-          </h1><div className="flex justify-around flex-col lg:flex-row mt-5 relative z-10 top-20">
+          </h1><div className="flex justify-around flex-col lg:flex-row mt-5  z-10 top-20">
             {serviceProvide.map((item, index) => (
               <div
                 key={index}
@@ -225,9 +225,28 @@ export default function Home() {
         </section>
 
       </div>
-      <section className="mt-20">
+      <section className="flex flex-col md:flex-row bg-gray-100 py-10">
+        
         <Loan />
+        <section className=" text-start md:text-center my-auto w-[100%] md:w-[50%]">
+          <h3 className="text-red-500">|| CALCULATE YOUR RATE ||</h3>
+          <h1 className="font-bold text-3xl mt-3">
+            Struggling with business uncertainties<br /> and cashflow hurdles.
+          </h1>
+          <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">Business uncertainties and cashflow challenges can make borrowing a complicated process. An experienced consultant can understand and present things in an effective manner to the right lending entity.</p>
+        </section>
       </section>
+
+
+      <section className=" text-center mt-10  mx-auto w-[80%] bg-[url('../Images/testi.png')]">
+          <h3 className="text-red-500">|| OUR Benifits ||</h3>
+          <h1 className="font-bold text-3xl mt-3">
+            Which NBFC is right for your funding needs?
+          </h1>
+          <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">
+            Apart from Banks there are hundreds of NBFCs categorised as Upper and Middle Layer by the RBI. Each lending institution has its own area of expertise and the kind of transactions it favours. Presenting the right case, correctly to the right entity makes all the difference.
+            </p>
+        </section>
     </>
   );
 }
