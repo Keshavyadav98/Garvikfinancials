@@ -82,11 +82,17 @@ export default function LoanCalculator() {
         </div>
 
         {/* Results */}
+        
         <div className="space-y-2 text-gray-700">
+          <p className="flex justify-between">
+            <span>Intrest Rate</span>
+            <b>{interestRate} %</b>
+          </p>
           <p className="flex justify-between">
             <span>Monthly EMI</span>
             <b>₹{emi.toLocaleString("en-IN")}</b>
           </p>
+          
           <p className="flex justify-between">
             <span>Loan Tenure</span>
             <b>{years} Years ({months} Months)</b>
