@@ -147,7 +147,7 @@ export default function Home() {
                   Hundreds of customers trust our company
                 </h1> */}
                   <h1 className="text-center mx-auto font-bold text-white my-10 text-2xl">OUR SERVICE</h1>   
-                <div className="flex">
+                <div className="hidden lg:flex lg:flex-row">
                   <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
                   <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>
                   <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Business Loan</h1>
@@ -156,6 +156,12 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="flex flex-col lg:hidden">
+                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
+                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>
+                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Business Loan</h1>
+                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Project Loan</h1>
+                </div>
         </section>
 
         {/* Offering Section
