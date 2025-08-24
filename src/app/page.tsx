@@ -238,7 +238,7 @@ export default function Home() {
       </section>
 
 
-      <section className=" text-center mt-10  mx-auto w-[80%] bg-[url('../Images/testi.png')]">
+      <section className=" text-center mt-10  mx-auto w-100% md:w-[80%] bg-[url('../Images/testi.png')]">
           <h3 className="text-red-500">|| OUR Benifits ||</h3>
           <h1 className="font-bold text-3xl mt-3">
             Which NBFC is right for your funding needs?
