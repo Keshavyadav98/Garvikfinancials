@@ -73,7 +73,7 @@ export default function Home() {
         <div className="pt-30">
           <div className="flex justify-around flex-col lg:flex-row">
             <div className="w-full m-0 lg:m-5 lg:w-[45vw]">
-              <p className="text-center lg:text-start">|| About Company ||</p>
+              <h1 className="text-center font-bold text-red-500 text-xl">|| About Company ||</h1>
               <h1 className="py-3 text-4xl font-bold">
                 Personal loans to fulfill your dreams
               </h1>
@@ -84,9 +84,9 @@ export default function Home() {
                     <FaHandHoldingUsd className="text-xl text-red-600" />
                   </div> */}
                   <div className="px-6">
-                    <h1>
+                    <p className="text-gray-700">
                       Business uncertainties and cashflow challenges can make borrowing a complicated process. An experienced consultant can understand and present things in an effective manner to the right lending entity.
-                    </h1>
+                    </p>
                   </div>
                 </div>
 
@@ -97,14 +97,14 @@ export default function Home() {
                   <div className="p-2">
                     <div className="flex items-center gap-2">
                       <IoMdCheckmarkCircleOutline className="text-red-500 text-2xl font-black" />
-                      <h2 className="font-bold">Direct card payment</h2>
+                      <h2 className="font-bold text-gray-700">Direct card payment</h2>
                     </div>
                   </div>
 
                   <div className="p-2">
                     <div className="flex items-center gap-2">
                       <IoMdCheckmarkCircleOutline className="text-red-500 text-2xl font-black" />
-                      <h2 className="font-bold">Pay via UPN</h2>
+                      <h2 className="font-bold text-gray-700">Pay via UPN</h2>
                     </div>
                   </div>
                 </div>

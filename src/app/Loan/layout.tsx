@@ -85,6 +85,10 @@ export default function LoanCalculator() {
         
         <div className="space-y-2 text-gray-700">
           <p className="flex justify-between">
+            <span>Amount</span>
+            <b>{loanAmount}</b>
+          </p>
+          <p className="flex justify-between">
             <span>Intrest Rate</span>
             <b>{interestRate} %</b>
           </p>
