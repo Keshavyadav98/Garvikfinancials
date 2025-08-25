@@ -6,6 +6,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 
 import Image from 'next/image';
+import logo from '../../Images/logO.jpeg';
 import Link from 'next/link';
 import {
   Dialog,
@@ -74,7 +75,8 @@ export default function Navbar() {
       <nav aria-label="Global"  className="dark:bg-[#061127] p-3 z-10 transition-all duration-300 w-full mx-auto flex  items-center justify-between  lg:px-8">
         <div className="flex ">
           <Link href="#" className="">
-            <h1>Garvik Financials logo</h1>
+            {/* <h1>Garvik Financials logo</h1> */}
+            <Image src={logo} alt='...' className='' width={100} height={100} />
           </Link>
         </div>
         <div className="flex lg:hidden">

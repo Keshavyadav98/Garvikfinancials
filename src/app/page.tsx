@@ -54,7 +54,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="bg-[url('../Images/slider-1-1.png')] bg-center bg-cover h-[55vw]">
           <div className="lg:col-span-7">
-            <p className="text-white text-xl p-10">Easy & simple</p>
+            {/* <p className="text-white text-xl p-10">Easy & simple</p> */}
           </div>
         </div>
 
