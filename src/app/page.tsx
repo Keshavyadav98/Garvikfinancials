@@ -73,10 +73,10 @@ export default function Home() {
         <div className="pt-30">
           <div className="flex justify-around flex-col lg:flex-row">
             <div className="w-full m-0 lg:m-5 lg:w-[45vw]">
-              <h1 className="text-center font-bold text-red-500 text-xl">|| About Company ||</h1>
+              {/* <h1 className="text-center font-bold text-red-500 text-xl">|| About Company ||</h1>
               <h1 className="py-3 text-4xl font-bold">
                 Personal loans to fulfill your dreams
-              </h1>
+              </h1> */}
 
               <div>
                 <div className="flex items-center py-10">
@@ -93,7 +93,7 @@ export default function Home() {
                 <p className="pb-5">
                 </p>
 
-                <div className="flex flex-col lg:flex-row justify-around">
+                {/* <div className="flex flex-col lg:flex-row justify-around">
                   <div className="p-2">
                     <div className="flex items-center gap-2">
                       <IoMdCheckmarkCircleOutline className="text-red-500 text-2xl font-black" />
@@ -107,7 +107,7 @@ export default function Home() {
                       <h2 className="font-bold text-gray-700">Pay via UPN</h2>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* <button
                   type="button"
