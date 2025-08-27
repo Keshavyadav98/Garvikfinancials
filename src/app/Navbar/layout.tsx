@@ -6,7 +6,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 
 import Image from 'next/image';
-import logo from '../../Images/logO.jpeg';
+import logo from '../../Images/logO.png';
 import Link from 'next/link';
 import {
   Dialog,
@@ -71,7 +71,7 @@ export default function Navbar() {
   return (
     <>
      <div ref={triggerRef} className="h-0"></div>
-    <header  ref={navbarRef} className="bg-white" id="navbar">
+    <header  ref={navbarRef} className="bg-black" id="navbar">
       <nav aria-label="Global"  className="dark:bg-[#061127] p-3 z-10 transition-all duration-300 w-full mx-auto flex  items-center justify-between  lg:px-8">
         <div className="flex ">
           <Link href="#" className="">
@@ -90,39 +90,39 @@ export default function Navbar() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-6">
-          <Link href="/" className=" text-base  text-gray-900 ">
-            <span className='text-[#68686f]  hover:text-[#68685f]   underline-animate cursor-pointer '>Home</span>
+          <Link href="/" className=" text-base  font-mono text-white text-lg ">
+            <span className='font-mono text-white text-lg  hover:text-[#68685f]   underline-animate cursor-pointer '>Home</span>
           </Link>
-          <Link href="/about" className=" text-base  text-gray-900 ">
-            <span className='text-[#68686f]  hover:text-[#68685f]   underline-animate cursor-pointer '>About US</span>
+          <Link href="/about" className=" text-base  font-mono text-white text-lg ">
+            <span className='font-mono text-white text-lg  hover:text-[#68685f]   underline-animate cursor-pointer '>About US</span>
           </Link>
-          <Link href="/privacy-policy" className=" text-base  text-gray-900 ">
-            <span className='text-[#68686f]  hover:text-[#68685f]   underline-animate cursor-pointer '>Privacy Policy</span>
+          <Link href="/privacy-policy" className=" text-base  font-mono text-white text-lg ">
+            <span className='font-mono text-white text-lg  hover:text-[#68685f]   underline-animate cursor-pointer '>Privacy Policy</span>
           </Link>
          
 
           
-          <Link href="/contactUS" className="text-[#68686f] hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  text-gray-900">
-            <span className='text-[#68686f] hover:text-[#68685f]  underline-animate cursor-pointer decoration-[#ba181b]'>Contact US</span>
+          <Link href="/contactUS" className="font-mono text-white text-lg hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  font-mono text-white text-lg">
+            <span className='font-mono text-white text-lg hover:text-[#68685f]  underline-animate cursor-pointer decoration-[#ba181b]'>Contact US</span>
 
           </Link>
-          <Link href="/joinus" className="text-[#68686f] hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  text-gray-900">
-            <span className='text-[#68686f] hover:text-[#68685f]  underline-animate cursor-pointer decoration-[#ba181b]'>Join US</span>
+          <Link href="/joinus" className="font-mono text-white text-lg hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  font-mono text-white text-lg">
+            <span className='font-mono text-white text-lg hover:text-[#68685f]  underline-animate cursor-pointer decoration-[#ba181b]'>Join US</span>
 
           </Link>
         </PopoverGroup>
         <div className=' hidden lg:flex lg:relative'>
           <BsTelephoneFill className='mx-2 mt-1' />
-          <p className='text-[#68686f] hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  text-gray-900'>+91-8860611200</p>
+          <p className='font-mono text-white text-lg hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  font-mono text-white text-lg'>+91-8860611200</p>
         </div>
         <div className='hidden lg:block lg:relative'>
-          <button type="button" className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Request Loan</button>
+          <button type="button" className="focus:outline-none font-mono text-white text-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Request Loan</button>
         </div>
 
       </nav>
-      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
+      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden bg-black">
         <div className="fixed inset-0 z-50 " />
-        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -143,20 +143,20 @@ export default function Navbar() {
 
                 <Link
                   href="\"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7  text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7  font-mono text-white text-lg hover:bg-gray-50"
                 >
                   Home
                 </Link>
                 <Link
                   href="\"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7  text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7  font-mono text-white text-lg hover:bg-gray-50"
                 >
                   About US
                 </Link>
 
                 <Link
                   href="\contactUS"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7  text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7  font-mono text-white text-lg hover:bg-gray-50"
                 >
                   Contact US
                 </Link>

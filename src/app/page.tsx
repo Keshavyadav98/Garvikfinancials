@@ -54,18 +54,23 @@ export default function Home() {
         {/* Hero Section */}
         <div className="bg-[url('../Images/slider-1-1.png')] bg-center bg-cover h-[55vw]">
           <div className="lg:col-span-7">
-            {/* <p className="text-white text-xl p-10">Easy & simple</p> */}
+            {/* <p className="text-white text-lg p-10">Easy & simple</p> */}
           </div>
         </div>
 
         <div className="bg-[url('../Images/testi.png')]">
-        <section className=" text-center mt-10  mx-auto w-100% md:w-[80%] ">
-          <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">
+        <section className="  mt-10   mx-auto w-100% md:w-[80%] ">
+            <div className="flex items-center py-10">
+                  <div className="px-6">
+                    <p className="text-gray-700 font-medium text-lg">
+                      
             We are a boutique loan consultancy where we &lsquo;bank&rsquo; on 20+ years of experience of 
                   Our associates understand clients&rsquo; requirements and &lsquo;draw&rsquo; from
                   our network of industry leaders to present cases effectively
                   and deliver the desired results in a time-bound manner.
-            </p>
+                      </p>
+                  </div>
+                </div>
         </section>
         </div>
 
@@ -73,7 +78,7 @@ export default function Home() {
         <div className="pt-30">
           <div className="flex justify-around flex-col lg:flex-row">
             <div className="w-full m-0 lg:m-5 lg:w-[45vw]">
-              {/* <h1 className="text-center font-bold text-red-500 text-xl">|| About Company ||</h1>
+              {/* <h1 className="text-center font-bold text-red-500 text-lg">|| About Company ||</h1>
               <h1 className="py-3 text-4xl font-bold">
                 Personal loans to fulfill your dreams
               </h1> */}
@@ -81,10 +86,10 @@ export default function Home() {
               <div>
                 <div className="flex items-center py-10">
                   {/* <div className="w-12 h-12 rounded-full flex items-center justify-center bg-gray-300">
-                    <FaHandHoldingUsd className="text-xl text-red-600" />
+                    <FaHandHoldingUsd className="text-lg text-red-600" />
                   </div> */}
                   <div className="px-6">
-                    <p className="text-gray-700">
+                    <p className="text-gray-700 font-medium text-lg">
                       Business uncertainties and cashflow challenges can make borrowing a complicated process. An experienced consultant can understand and present things in an effective manner to the right lending entity.
                     </p>
                   </div>
@@ -128,11 +133,13 @@ export default function Home() {
         </div>
         <div className="bg-gray-100 py-10">
         <section className=" text-start md:text-center mx-auto w-[100%]  md:w-[80%]">
-          {/* <h3 className="text-red-500">|| CALCULATE YOUR RATE ||</h3> */}
-          {/* <h1 className="font-bold text-3xl mt-3">
-            Struggling with business uncertainties<br /> and cashflow hurdles.
-          </h1> */}
-          <p className="font-normal my-5 mx-auto text-gray-700 text-start mt-10 ">Apart from Banks there are hundreds of NBFCs categorised as Upper and Middle Layer by the RBI. Each lending institution has its own area of expertise and the kind of transactions it favours. Presenting the right case, correctly to the right entity makes all the difference.</p>
+        <div className="flex items-center py-10">
+                  <div className="px-6">
+                    <p className="text-gray-700 font-medium text-lg">
+                      Apart from Banks there are hundreds of NBFCs categorised as Upper and Middle Layer by the RBI. Each lending institution has its own area of expertise and the kind of transactions it favours. Presenting the right case, correctly to the right entity makes all the difference.
+                      </p>
+                  </div>
+                </div>
         </section>
         </div>
 
@@ -148,19 +155,19 @@ export default function Home() {
                 </h1> */}
                   <h1 className="text-center mx-auto font-bold text-white my-10 text-2xl">OUR SERVICE</h1>   
                 <div className="hidden lg:flex lg:flex-row">
-                  <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
-                  <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>
-                  <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Business Loan</h1>
-                  <h1 className="mx-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Project Loan</h1>
+                  <h1 className="mx-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
+                  <h1 className="mx-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>
+                  <h1 className="mx-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Business Loan</h1>
+                  <h1 className="mx-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Project Loan</h1>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col lg:hidden">
-                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
-                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>
-                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Business Loan</h1>
-                  <h1 className="m-3 text-xl bg-[#00000029] p-[10px] text-white font-medium">Project Loan</h1>
+                  <h1 className="m-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
+                  <h1 className="m-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>
+                  <h1 className="m-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Business Loan</h1>
+                  <h1 className="m-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Project Loan</h1>
                 </div>
         </section>
 
