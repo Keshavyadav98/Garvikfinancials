@@ -76,7 +76,7 @@ export default function Navbar() {
         <div className="flex ">
           <Link href="#" className="">
             {/* <h1>Garvik Financials logo</h1> */}
-            <Image src={logo} alt='...' className=' my-2 ms-1' width={100} />
+            <Image src={logo} alt='...' className=' lg:h-[6vw] my-2 ms-1' width={100} />
           </Link>
         </div>
         <div className="flex lg:hidden">
