@@ -153,7 +153,7 @@ export default function Home() {
                 {/* <h1 className="text-4xl font-bold text-white">
                   Hundreds of customers trust our company
                 </h1> */}
-                  <h1 className="text-center mx-auto font-bold text-white my-10 text-2xl">OUR SERVICE</h1>   
+                  <h1 className="text-center mx-auto font-bold text-white my-10 text-2xl">OUR SERVICES</h1>   
                 <div className="hidden lg:flex lg:flex-row">
                   <h1 className="mx-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Working Capital OD/CC</h1>
                   <h1 className="mx-3 text-lg bg-[#00000029] p-[10px] text-white font-medium">Mortgage Loan</h1>

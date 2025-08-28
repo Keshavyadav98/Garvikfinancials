@@ -6,7 +6,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 
 import Image from 'next/image';
-import logo from '../../Images/logO.png';
+import logo from '../../Images/image-removebg-previ.png';
 import Link from 'next/link';
 import {
   Dialog,
@@ -72,18 +72,18 @@ export default function Navbar() {
     <>
      <div ref={triggerRef} className="h-0"></div>
     <header  ref={navbarRef} className="bg-black" id="navbar">
-      <nav aria-label="Global"  className="dark:bg-[#061127] p-3 z-10 transition-all duration-300 w-full mx-auto flex  items-center justify-between  lg:px-8">
+      <nav aria-label="Global"  className="dark:bg-[#061127]  z-10 transition-all duration-300 w-full mx-auto flex  items-center justify-between  lg:px-8">
         <div className="flex ">
           <Link href="#" className="">
             {/* <h1>Garvik Financials logo</h1> */}
-            <Image src={logo} alt='...' className='' width={100} height={100} />
+            <Image src={logo} alt='...' className=' my-2 ms-1' width={100} />
           </Link>
         </div>
         <div className="flex lg:hidden">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="m-1.5   inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="m-1.5   inline-flex items-center justify-center rounded-md  text-gray-700"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="size-6" />
@@ -116,7 +116,7 @@ export default function Navbar() {
           <p className='font-mono text-white text-lg hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  font-mono text-white text-lg'>+91-8860611200</p>
         </div>
         <div className='hidden lg:block lg:relative'>
-          <button type="button" className="focus:outline-none font-mono text-white text-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Request Loan</button>
+          <button type="button" className="focus:outline-none font-mono text-white text-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-1 cursor-pointer me-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Request Loan</button>
         </div>
 
       </nav>
