@@ -17,7 +17,7 @@ export default function Footer() {
             <Image src={logo} alt='...' className=''  />
         </div>
         
-          <p className='font-mono text-white m-auto  text-lg hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  font-mono text-white text-lg'>+91-8860611200</p>
+          <p className='font-mono text-white m-0 lg:m-auto  text-lg hover:text-[#68685f] cursor-pointer decoration-[#ba181b] text-base  font-mono text-white text-lg'>+91-8860611200</p>
     </div>
     </div>
   )
